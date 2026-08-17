@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Human Oversight Is a Capability, Not a Control</title>
+<style>
+  :root {
+    --navy: #1B3A63;
+    --navy-deep: #12294A;
+    --steel: #4A6FA0;
+    --amber: #E08E3E;
+    --amber-deep: #C77323;
+    --bg: #F3F6FA;
+    --card-border: #D7E1F0;
+    --text: #16305A;
+    --muted: #5B6B85;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    font-family: Arial, Helvetica, "Segoe UI", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  .wrap {
+    width: 100%;
+    max-width: 560px;
+  }
+  header {
+    background: var(--navy);
+    padding: 34px 28px 24px;
+    text-align: center;
+  }
+  header .accent-line {
+    height: 4px;
+    background: var(--amber);
+    margin-top: 24px;
+  }
+  h1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 1.28;
+    margin: 0 0 8px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  p.subtitle {
+    color: #CBD8EE;
+    font-size: 15px;
+    margin: 0 0 14px;
+  }
+  p.authors {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 0 4px;
+  }
+  p.venue {
+    color: #9FB2D6;
+    font-size: 12.5px;
+    margin: 0;
+  }
+  main {
+    padding: 26px 24px 20px;
+  }
+  .section-label {
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 22px 0 10px;
+  }
+  .section-label:first-child { margin-top: 0; }
+  a.link-card {
+    display: block;
+    background: #FFFFFF;
+    color: var(--text);
+    text-decoration: none;
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 15px 18px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 15.5px;
+  }
+  a.link-card .sub {
+    display: block;
+    font-weight: 400;
+    font-size: 12.5px;
+    color: var(--muted);
+    margin-top: 3px;
+  }
+  a.link-card.primary {
+    background: var(--amber);
+    color: var(--navy-deep);
+    border: none;
+  }
+  a.link-card.primary .sub { color: var(--navy-deep); opacity: 0.8; }
+  a.link-card.dark {
+    background: var(--navy);
+    color: #FFFFFF;
+    border: none;
+  }
+  a.link-card.dark .sub { color: #B9C8E4; }
+  .author-card {
+    background: #FFFFFF;
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 15px 18px;
+    margin-bottom: 10px;
+  }
+  .author-card a.name {
+    display: block;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15.5px;
+  }
+  .author-card .sub {
+    display: block;
+    font-weight: 400;
+    font-size: 12.5px;
+    color: var(--muted);
+    margin-top: 3px;
+  }
+  .author-card a.email {
+    display: inline-block;
+    color: var(--amber-deep);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  footer {
+    padding: 18px 24px 30px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.7;
+    border-top: 1px solid var(--card-border);
+    margin-top: 6px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Human Oversight Is a Capability, Not a Control</h1>
+      <p class="subtitle">What AI Governance Can Learn from Safety Science</p>
+      <p class="authors">Jennifer McCauley &nbsp;&middot;&nbsp; Edward J. Glantz</p>
+      <p class="venue">Penn State University &middot; College of IST<br>ACM AI Summit '26 &middot; Atlanta, GA &middot; Aug 30&ndash;Sep 2, 2026</p>
+      <div class="accent-line"></div>
+    </header>
+
+    <main>
+      <div class="section-label">This Poster</div>
+      <a class="link-card primary" href="poster.pdf" target="_blank" rel="noopener">
+        Download the Poster (PDF)
+        <span class="sub">As presented at ACM AI Summit '26</span>
+      </a>
+
+      <div class="section-label">The Paper</div>
+      <a class="link-card dark" href="https://aisummit.acm.org/" target="_blank" rel="noopener">
+        Read the Paper &mdash; Forthcoming
+        <span class="sub">Accepted at ACM AI Summit '26 &middot; camera-ready posted after the conference</span>
+      </a>
+
+      <div class="section-label">Authors</div>
+      <div class="author-card">
+        <a class="name" href="https://ist.psu.edu/directory/jcw173" target="_blank" rel="noopener">
+          Jennifer McCauley
+          <span class="sub">Faculty page &middot; Penn State College of IST</span>
+        </a>
+        <a class="email" href="mailto:jcw173@psu.edu">jcw173@psu.edu</a>
+      </div>
+      <div class="author-card">
+        <a class="name" href="https://ist.psu.edu/directory/ejg8" target="_blank" rel="noopener">
+          Edward J. Glantz
+          <span class="sub">Faculty page &middot; Penn State College of IST</span>
+        </a>
+        <a class="email" href="mailto:ejg8@psu.edu">ejg8@psu.edu</a>
+      </div>
+    </main>
+
+    <footer>
+      Penn State University &middot; College of Information Sciences and Technology<br>
+      This page will be updated with the final paper link once camera-ready is published.
+    </footer>
+  </div>
+</body>
+</html>
